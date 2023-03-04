@@ -1,0 +1,15 @@
+.sec-1 {
+	padding: 200px;
+	background-color: #e0ebeb;
+	display: grid;
+	grid-template-columns: auto auto: 
+}
+
+.sec-1 .div-1 {
+	margin: 50px;
+}
+
+.sec-1 img {
+	width: 400px;
+	height: auto;
+}
