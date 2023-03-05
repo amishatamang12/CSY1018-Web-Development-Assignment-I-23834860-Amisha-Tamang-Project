@@ -175,16 +175,18 @@ footer .div-2 {
 
 
 /*CSS for contact*/
- .rose{
+ .section{
 	padding: 50px;
 	background-color: #f9d7d7;
+	display:grid;
+	grid-template-columns: auto auto;
 }
 
-.rose .contact-1 .contact-2{
+.section .contact-1 .contact-2{
 	display:inline-block;
 }
 
-.rose .contact-1{
+.section .contact-1{
 	margin:30px;
 }
 
