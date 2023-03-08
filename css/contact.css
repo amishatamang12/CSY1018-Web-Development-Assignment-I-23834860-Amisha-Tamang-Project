@@ -1,0 +1,60 @@
+/*CSS for contact*/
+ .section{
+  padding: 50px;
+  grid-template-columns: auto auto;
+  display:grid;
+  background-color:#ba9393;
+}
+
+.section .contact-1 .contact-2{
+  display:inline;
+}
+
+.section .contact-1{
+  margin:30px;
+}
+
+.botton{
+  display: inline-block;
+  padding:5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:rgb(194, 247, 247);
+  border-radius: 15px;
+  border:none;
+  background-color: #efa3a3;
+}
+.botton:hover{
+  background-color:#fdc1c1;
+}
+.botton:active{
+  background-color:#f2bfe4;
+  transform: translateY(4px);
+}
+
+.contact-2 form div{
+  display: flex;
+  margin: 0;
+}
+
+.contact-2 form input{
+  width: 465px; 
+  height: 20px;
+  padding: 10px;
+  margin: 15px 10px;
+}
+.contact-2 form div input{
+  width: 210px;
+  height: 20px;
+  padding: 10px;
+  margin: 15px 10px;
+}
+.contact-2 form textarea{
+  width: 465px;
+  height: 300px;
+  padding: 10px;
+  margin: 15px 10px;
+}
