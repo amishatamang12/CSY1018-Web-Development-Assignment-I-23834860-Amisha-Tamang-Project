@@ -1,21 +1,25 @@
-/*CSS for contact*/
- .section-1{
-  padding: 50px;
-  grid-template-columns: auto auto;
-  display:grid;
-  background-color:#ba9393;
-}
-
 .section-1 {
-  display: grid;
-  grid-template-columns: auto auto;
+  background-color: #F5EAEA;
+  padding:50px;
 }
 
-.section-1 .div-1{
-  margin:30px;
-  width: 600px;
+.section-1 div{
+  display: inline-block;
 }
-
+.section-1 .div-2 {
+  width: 500px;
+  margin-left:450px;
+}
+.section-1 .div-2 button{
+  padding: 0;
+  height: 50px;
+  width: 150px;
+  background-color: #7c73e6; 
+}
+.section-2{
+  text-align: center;
+  padding: 50px;
+}
 
 .section-2 form{
     text-align: center;
@@ -24,6 +28,8 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .section-2 form button {
   margin-left: auto;
@@ -37,7 +43,7 @@
   color: #fafafa;
   
 }
-.section-2 form input, textarea{
+.section-2 form input, .section-2 form textarea{
   width: 465px; 
   height: 20px;
   padding: 10px;
@@ -61,6 +67,29 @@
   justify-content: center;
   align-items: center;
 }
-.section-2 h2, p {
+.section-3 {
+  background-color: #BFDCE5;
+}
+.section-3 .email-box {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 400px;
   text-align: center;
+}
+.section-3 form {
+  display: flex;
+  padding: 20px;
+}
+.section-3 input, button {
+  width: 300px;
+  padding: 10px;
+  height: 20px;
+  border-style: none;
+}
+.section-3 button {
+  width: 50px;
+  height: 40px;
+  background-color: red;
+  color: white;
 }
