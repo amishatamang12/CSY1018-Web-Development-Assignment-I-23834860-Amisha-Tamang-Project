@@ -5,14 +5,18 @@
 	grid-template-columns: auto auto: 
 }
 
+}
 .sec-1 .div-2 {
 	margin: 50px;
+	
 }
 
 .sec-1 img {
 	width: 400px;
 	height: auto;
 }
+
+
 
 .section-2 .div-1{
 	border-radius: 15px 50px;

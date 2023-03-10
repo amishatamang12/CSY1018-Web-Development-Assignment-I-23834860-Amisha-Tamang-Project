@@ -185,3 +185,8 @@ footer .div-1 p {
 .section{
   background-color: red;
 }
+
+.bp .ii img{
+  background-image: url(./image/p-1.jpg);
+    height:100%;
+}
