@@ -13,6 +13,19 @@
 	width: 400px;
 	height: auto;
 }
+
+.section-2 .div-1{
+	border-radius: 15px 50px;
+	background: #73AD21;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin:30px;
+}
+
+
 .section-3 {
 	display:grid;
 	grid-template-columns: auto auto auto;
