@@ -8,31 +8,42 @@
 }
 .sec-1 .div-2 {
 	margin: 50px;
-	
-}
 
+}
+.section img{
+	width:100%;
+	height:700px;
+}
 .sec-1 img {
 	width: 400px;
 	height: auto;
 }
-
-
-
-.section-2 .div-1{
-	border-radius: 15px 50px;
-	background: #73AD21;
-	padding: 20px;
-	width: 200px;
-	height: 150px;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	margin:30px;
+.section-2{
+	padding:20px;
 }
 
+.section-2 .div-1 {
+	border-radius: 15px 50px;
+	background: #9ED5C5;
+	padding: 30px;
+	width: 200px;
+	height: 150px;
+	font-size:30px;
+	text-align: center;
+	display :grid;
+	grid-template-columns: auto auto auto;
 
+
+}
+
+.section-2 .div{
+	display: inline-block;
+
+}
 .section-3 {
 	display:grid;
 	grid-template-columns: auto auto auto;
-	padding:10px;
+	padding:20px;
 	background-color:pink;
 }
+
