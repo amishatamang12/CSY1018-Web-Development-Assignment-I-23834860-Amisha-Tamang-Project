@@ -1,15 +1,25 @@
-.section .div-1{
-	margin: 0px 100px 0 100px;
+.section-1 .div-1 {
+	display:grid;
+	grid-template-columns: auto auto;
 	height: 200px;
-	width: 400px;
+	width: 200px;
 	border-radius: 100px 0 0 100px;
-	background-color: black;
+	background: red;
+	text-align: center;
+	justify-content: center;
+}
+.section-1 .div-2 {
+	display:grid;
+	grid-template-columns: auto auto;
+	height: 200px;
+	width: 200px;
+	border-radius: 0 100px 100px 0;
+	background: red;
+	margin-left: 200px;
+	text-align: center;
+	justify-content: center;
 }
 
-.section .div-2{
-	height: 200px;
-	width: 400px;
-	border-radius: 0 100px 100px 0;
-	background-color: black;
-	margin: 0 100px 0 500px;
+.sub-div{
+	margin: auto;
 }

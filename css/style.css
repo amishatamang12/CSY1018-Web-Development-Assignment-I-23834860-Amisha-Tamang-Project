@@ -170,24 +170,32 @@ footer .div-1 p {
 
 
 /*CSS for portifolio*/
-.exo img{
-  width: 200px;
-  height: auto;
-  }
-
-.bp-2 img{
-  width: 200px;
-  height: auto;
-  
-}
-
-.section{
-  background-color: red;
-}
-.ii img{
+.sec-1 .ii img{
   height:700px;
   width:100%;
 }
-.bp bp-1 bp-2{
-  background-color: #FFDDD2;
+
+.sec-2{
+  background-color:#FD8A8A;
+}
+
+.sec-2 .div-1 img{
+  width:300px;
+  height:400px;
+}
+
+.sec-2 .div-2{
+  
+}
+
+.sec-3{
+  background-color:#FFC3A1;
+}
+
+.sec-3 .div-1{
+  text-align: center;
+}
+.sec-3 .div-2 img{
+  width:450px;
+  height:500px;
 }
