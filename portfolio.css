@@ -1,1 +1,22 @@
-portifolio.css
+
+/*CSS for portifolio*/
+.exo img{
+  width: 200px;
+  height: auto;
+  }
+
+.bp-2 img{
+  width: 200px;
+  height: auto;
+  
+}
+
+
+.sec-1 .ii img{
+  height:100px;
+  width:10px;
+}
+
+.sec-2{
+  background-color:red;
+}

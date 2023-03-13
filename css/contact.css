@@ -38,9 +38,11 @@
 
 
 .section-2 .div-3 {
-    padding:0;
-    display:inline-block;
+  font-size:40px;
 }
+ .section-2 .div-3 .material-symbols-outlined{
+  font-size:40px;
+ }
 
 .section-2 form{
     text-align: center;

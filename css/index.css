@@ -1,15 +1,14 @@
 .sec-1 {
-	padding: 200px;
+	padding: 180px;
 	background-color: #e0ebeb;
 	display: grid;
-	grid-template-columns: auto auto: 
+	grid-template-columns: auto auto;
 }
 
 }
 .sec-1 .div-2 {
-	margin: 50px;
+	margin: 30px;
 	display: inline-block;
-
 }
 .section img{
 	width:100%;
@@ -47,4 +46,7 @@
 	padding:20px;
 	background-color:pink;
 }
-
+	.section-2 .div-1 .inner-div{
+		font-size: 20px;
+		text-align: center;
+	}

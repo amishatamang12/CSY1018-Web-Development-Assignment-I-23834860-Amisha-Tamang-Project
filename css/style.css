@@ -170,22 +170,28 @@ footer .div-1 p {
 
 
 /*CSS for portifolio*/
+
 .sec-1 .ii img{
   height:700px;
   width:100%;
 }
 
+
 .sec-2{
   background-color:#FD8A8A;
+  column-count: 2;
 }
 
 .sec-2 .div-1 img{
-  width:300px;
-  height:400px;
+  width:500px;
+  height:500px;
+  margin-right: 20px;
 }
 
 .sec-2 .div-2{
-  
+  font-size:30px;
+  padding-top:60px;
+  margin-right: 70px;
 }
 
 .sec-3{
