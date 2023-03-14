@@ -7,8 +7,8 @@
 
 }
 .sec-1 .div-2 {
-	margin: 30px;
-	display: inline-block;
+	margin: 100px;
+	
 }
 .section img{
 	width:100%;
@@ -46,7 +46,5 @@
 	padding:20px;
 	background-color:pink;
 }
-	.section-2 .div-1 .inner-div{
-		font-size: 20px;
-		text-align: center;
-	}
+
+	
