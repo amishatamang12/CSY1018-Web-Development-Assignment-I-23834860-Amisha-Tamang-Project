@@ -152,3 +152,15 @@ footer .div-1 p {
   height:auto;
   
 }
+
+@media only screen and (max-width: 1110px) {
+.sec-2 .div-1  inner-div img{
+  width:200px;
+  height:200px;
+ 
+}
+
+/*sitereport*/
+p{
+  text-indent: 50px;
+}
