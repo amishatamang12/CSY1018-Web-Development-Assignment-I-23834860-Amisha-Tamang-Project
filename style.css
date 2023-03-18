@@ -57,33 +57,7 @@ footer .div-2 {
 
 
 /*CSS for home page*/
-.sec-1 {
-  padding: 50px;
-  background-color: #e0ebeb;
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.sec-1 .div-2 {
-  padding-top: 100px;
-}
-.sec-1 .div-2 h1 {
-  width: 600px;
-}
-.sec-1 .div-2 h6, h1, p, h3 {
-  margin: 25px;
-}
 
-
-.section-2{
-  padding: 50px 20px;
-  background-color: #f0eeed;
-}
-  
-.section-2 .div-1{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-}
 
 .section-2 .div-1 .inner-div p{
   border-radius: 60px 0 60px 0;
@@ -142,16 +116,6 @@ footer .div-1 p {
 
 /*CSS for portifolio*/
 
-.exo img{
-  width:200px;
-  height:auto;
-  }
-
-.bp-2 img{
-  width: 200px;
-  height:auto;
-  
-}
 
 @media only screen and (max-width: 1110px) {
 .sec-2 .div-1  inner-div img{
@@ -160,7 +124,3 @@ footer .div-1 p {
  
 }
 
-/*sitereport*/
-p{
-  text-indent: 50px;
-}

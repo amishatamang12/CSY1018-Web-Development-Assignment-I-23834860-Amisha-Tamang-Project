@@ -1,3 +1,45 @@
+
+
+/* For sec-1*/
+.sec-1 {
+  padding: 50px;
+  background-color: #e0ebeb;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sec-1 .div-1 img{
+	height:400px;
+	width:auto;
+}
+.sec-1 .div-2 {
+  padding-top: 100px;
+}
+.sec-1 .div-2 h1 {
+	width:500px;
+}
+.sec-1 .div-2  {
+	padding:0;
+  margin: 20px;
+  font-size:20px;
+  text-align: center;
+}
+
+.dsec .div-2 h2{
+	margin:20px;
+}
+/* For section-1*/
+
+.section-2{
+  padding: 50px 20px;
+  background-color: #f0eeed;
+}
+  
+.section-2 .div-1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
 .sec-1 {
 	padding: 180px;
 	background-color: #e0ebeb;
@@ -18,52 +60,69 @@
 	width: 400px;
 	height: auto;
 }
-
-.section-3 {
-	display:grid;
-	grid-template-columns: auto auto auto;
-	padding:20px;
-	background-color:pink;
-}
-.section-3 .image{
-	width:350px;
-	height:720px;
-}
-@media only screen and (max-width: 1110px) {
-
-
-
-.section img{
-	width:100%;
-	height:400px;
-}
-.sec-1 img {
-	width: 400px;
-	height:400px;
-}
-.sec-1 .div-2 {*
-	margin:100px;
-	
-}
-.section-3 {
-	display:grid;
-	grid-template-columns: auto auto auto;
-	padding:50px;
-	background-color:pink;
-}
+/* For section-3*/
 
 .section-3 .image{
-	width:auto;
-	height:600px;
+	display:grid;
+	grid-template-columns: auto auto auto;
+	background-color:pink;
+    grid-row-gap:30px
+    grid-column-gap: 30px; 
+    padding: 70px;
 }
-	footer {
-		display: block;
+.section-3 .image img{
+	width:300px;
+	height:auto;
+	margin: 50px;
+}
+.section-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*CSS for home page responsive */
+@media only screen and (max-width:900px) {
+
+	.sec-1 {
+		grid-template-columns: auto;
+		padding: 20px;
 	}
-	footer .div-3-inner {
-		float: none;
+	img {
+		width: fit-content;
+		height: auto;
 	}
-	footer .div-1, .div-2, .div-3 {
-		text-align: center;
-		padding: 50px;
+	.section img {
+		height: 300px;
 	}
+	.sec-1 img {
+		width: 350px;
+		height: auto;
+	}
+	.sec-1 .div-2 {
+		padding: 20px;
+		width: 300px;
+	}
+	.sec-1 .div-2 h1 {
+		width: 50px;
+		padding: 20px;
+		margin: 0;
+	}
+	.sec-1 q {
+		width: 350px;
+		margin: 0;
+	}
+	.sec-1 .q {
+		widows: 300px;
+	}
+	.section-3 .image {
+		grid-template-columns: auto;
+		padding: 0;
+	}
+	.section3 img {
+		width: 300px;
+		height: auto;
+	}
+
 }
