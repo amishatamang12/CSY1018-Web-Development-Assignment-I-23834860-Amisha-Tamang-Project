@@ -1,45 +1,77 @@
-<!--This is workexperience page-->
+<!--protifolio page-->
 <!DOCTYPE html>
-<html lang="en">
 
-<!--Start of head-->
+<!-- root of this page-->
+<html lang="en">
+<!--start of head-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- creating link for css-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/workexperience.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-   
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
+    <title>Document</title>
 </head>
-<!--End of head-->
+<!--end of he head-->
 
-<!--Start of body-->
+<!-- start of body-->
 <body>
-    <header>
-     <!--Start of div-->
-     <div class="title-container">
-        <a href="">Amisha</a>
-    </div>
-    <!-- navagation bar start-->
-    <div class="nav-container">
-        <div class="nav-container-inner-div"></div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="workexperience.html">Work Experience</a></li>
-                    <li><a href="sitereport.html">Site Report</a></li>
-                </ul>
-            </nav>
-            <!--end navagation bart-->
+    <!-- start of header-->
+    <header id="header1">
+        <!-- div-container-->
+        <div class="title-container">
+            <a href="">Amisha</a>
         </div>
-</header>
+        <!-- start the navagation bar-->
+        <div class="nav-container">
+            <div class="nav-container-inner-div">
+                <nav class="nav1">
+                    <ul>
+                        <li><a class="navigation-a" href="index.html">Home</a></li>
+                        <li><a class="navigation-a" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="navigation-a" href="contact.html">Contact</a></li>
+                        <li><a class="navigation-a" href="workexperience.html">Work Experience</a></li>
+                        <li><a class="navigation-a" href="sitereport.html">Site Report</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-<!--section start-->
+
+            <!--end navagation bar-->
+
+    </header>
+    <!-- end of header-->
+    <header id="header2">
+        <div>
+            <div class="title-container">
+                <a href="">Amisha</a>
+            </div>
+            <div class="nav-container">
+                <input type="checkbox" id="navi" hidden value="hello">
+                  <nav class="nav2">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="workexperience.html">Work Experience</a>
+                        <a href="sitereport.html">Site Report</a>
+                 </nav>
+                 <label for="navi">
+                    <i class="material-symbols-outlined">menu</i>
+                 </label>
+             </div>
+        </div>
+        <div>
+            
+        </div>
+
+    </header>
+<!--end header-->
+
+<!--section  for education level start-->
     <section class="section-1">
         <div class="div-div">
             <div class="div-1">
@@ -56,8 +88,9 @@
             </div>
         </div>
     </section>
+    <!--end section education level-->
 
-    <!-- section for work experience-->
+     <!-- section for work experience-->
     <section class="sec-2">
         <div class="t-1">
             <h2>SUMMARY</h2>
@@ -65,7 +98,7 @@
         </div>
         <div class="t-2">
             <h2 class="work">WORK EXPERIENCE</h2>
-            <h2> Drector of Business,5star</h2>
+            <h2> Drector of Business,5star</h2><!-- this is my workexperience-->
             <p class="work-p">2015-2018</p>
             <ul>
                 <li class="work-list">Enrolled new members,managing a successful business project.</li>
@@ -75,7 +108,7 @@
             </ul>
         </div>
         <div class="t-3">
-            <h2>Marketing Manager</h2>
+            <h2>Marketing Manager</h2><!-- this is my workexperience-->
             <p class="work-p">2019-2022</p>
             <ul>
                 <li class="work-list">Identifying and fulfilling the needs of customers.</li>
@@ -84,7 +117,8 @@
                 <li class="work-list">Handling calls over 80clients with my teams.</li>
                 <li class="work-list">Strong communication.</li>
             </ul>
-        <div class="t-4">
+        </div>
+        <div class="t-4"><!-- this is for my skill-->
             <h2>SKILLS</h2>
             <ul>
                 <li class="work-list">Lader ship skill</li>
@@ -94,25 +128,26 @@
             </ul>
         </div>
     </section>
-    <!--end section-->
+    <!--end section of work experience-->
 
-<!-- start of footer-->
+   
+<!--start of footer-->
 <footer>
-        
-        <div class="div-1">
+    
+    <div class="div-1">
             <h2>About me</h2>
             <p>My mission is to design and develop a wedsite that you and your audience love.</p>
             
         </div>
 
-        <div class="div-2">
+        <div class="div-2"><!-- this is for contact information-->
             <h2>Contect Info</h2>
             <p class="text">Jorpati,Kathmandu,Nepal</p>
             <p class="text">+977-9843302260</p>
             <p class="text">amishat032@gmail.com</p>
         </div>
 
-        <div class="div-3">
+        <div class="div-3"><!--this is for social media-->
             <div class="div-3-inner">
                 <h2>Follow us</h2>
                     <a href="#" class="fa fa-facebook"></a>
@@ -122,10 +157,9 @@
             </div>
         </div>
         
+</footer>
 
-    </footer>
-    <!-- end of footer-->
-</body>
-<!-- end body of this page-->
-
+<!--end of footer-->
+</body><!--body end-->
 </html>
+<!--root if this page end-->

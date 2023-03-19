@@ -1,48 +1,74 @@
-<!--This is index page-->
+<!--protifolio page-->
 <!DOCTYPE html>
+
+<!-- root of this page-->
 <html lang="en">
+<!--start of head-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- creating link for css-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
+    <title>Document</title>
+</head>
+<!--end of he head-->
 
-    <!--Start of head-->
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- This link is create to connect with css-->
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/contact.css">
-    </head>
-    <!--End of head-->
-
- <!--This is the starting of body-->
- <body>
-
-        <!--Start of header-->
-        <header>
-
-         <!--Start of div-->
+<!-- start of body-->
+<body>
+    <!-- start of header-->
+    <header id="header1">
+        <!-- div-container-->
         <div class="title-container">
             <a href="">Amisha</a>
         </div>
-
-        <!-- Start for navigation bar-->
+        <!-- start the navagation bar-->
         <div class="nav-container">
-            <div class="nav-container-inner-div"></div>
-                <nav>
+            <div class="nav-container-inner-div">
+                <nav class="nav1">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="workexperience.html">Work Experience</a></li>
-                        <li><a href="sitereport.html">Site Report</a></li>
+                        <li><a class="navigation-a" href="index.html">Home</a></li>
+                        <li><a class="navigation-a" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="navigation-a" href="contact.html">Contact</a></li>
+                        <li><a class="navigation-a" href="workexperience.html">Work Experience</a></li>
+                        <li><a class="navigation-a" href="sitereport.html">Site Report</a></li>
                     </ul>
                 </nav>
-                <!-- End of navigation-->
             </div>
-        </header>
+        </div>
+
+
+            <!--end navagation bar-->
+
+    </header>
+    <!-- end of header-->
+    <header id="header2">
+        <div>
+            <div class="title-container">
+                <a href="">Amisha</a>
+            </div>
+            <div class="nav-container">
+                <input type="checkbox" id="navi" hidden value="hello">
+                  <nav class="nav2">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="workexperience.html">Work Experience</a>
+                        <a href="sitereport.html">Site Report</a>
+                 </nav>
+                 <label for="navi">
+                    <i class="material-symbols-outlined">menu</i>
+                 </label>
+             </div>
+        </div>
+        <div>
+            
+        </div>
+
+    </header>
         <!--End of header-->
 
 
@@ -52,7 +78,7 @@
             <!--Start section-1-->
         <section class="section-1">
         <div class="div-1">
-             <img src="./image/c.jpg">
+             <img src="./image/c.jpg" alt="nature">
          </div>
             
             <div class="div-2">
@@ -64,14 +90,15 @@
 
             <!--Start section-2-->
 
-        <section class="section-2"> 
+        <section class="section-2">
+            <!--this is for contact information--> 
              <div class="div-3">
                 <h2>ContactUs</h2>
                     <p><span class="material-symbols-outlined">location_on</span>Jorpati,Kathmandu<br/>
                     <span class="material-symbols-outlined">call</span>+977-9843302260<br/>
                 <span class="material-symbols-outlined">mail</span>amishat032@gmail.com</p>
             </div>
-            <div class="div-4">
+            <div class="div-4"><!--this is for form-->
                 <h2>Reach out to the List</h2>
                 <p>Thank you for your interest.Please fill out the form sincerely.</p>
 
@@ -94,7 +121,7 @@
 
         <!--Start section-3-->
         <section class="section-3">
-            <div class="email-box">
+            <div class="email-box"><!-- for email-->
                 <h1>Subscribe Your Newsletter</h1>
                 <form>
                     <input type="email" name="email" placeholder="Enter Your E-mail" />
@@ -107,9 +134,9 @@
     </main>
     <!--End of main-->
 
-
+<!--start of footer-->
     <footer>
-        
+        <!--start div-->
         <div class="div-1">
             <h2>About me</h2>
             <p>My mission is to design and develop a wedsite that you and your audience love.</p>
@@ -133,11 +160,14 @@
             </div>
         </div>
         
-    
+    <!--end div-->
         
 
     </footer>
+    <!-- end of footert-->
+
 </body>
 
 <!--End of body-->
 </html>
+<!-- End the root of this page-->

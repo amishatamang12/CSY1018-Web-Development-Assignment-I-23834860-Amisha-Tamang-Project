@@ -1,64 +1,104 @@
+<!--protifolio page-->
 <!DOCTYPE html>
+
+<!-- root of this page-->
 <html lang="en">
+<!--start of head-->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- creating link for css-->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />	
     <title>Document</title>
 </head>
+<!--end of he head-->
 
 <!-- start of body-->
 <body>
 	<!-- start of header-->
-	<header>
-		<!-- navagation bar start-->
+	<header id="header1">
+		<!-- div-container-->
 		<div class="title-container">
 			<a href="">Amisha</a>
 		</div>
-
+		<!-- start the navagation bar-->
 		<div class="nav-container">
-            <div class="nav-container-inner-div"></div>
-                <nav>
+            <div class="nav-container-inner-div">
+                <nav class="nav1">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="workexperience.html">Work Experience</a></li>
-                        <li><a href="sitereport.html">Site Report</a></li>
+                        <li><a class="navigation-a" href="index.html">Home</a></li>
+                        <li><a class="navigation-a" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="navigation-a" href="contact.html">Contact</a></li>
+                        <li><a class="navigation-a" href="workexperience.html">Work Experience</a></li>
+                        <li><a class="navigation-a" href="sitereport.html">Site Report</a></li>
                     </ul>
 			    </nav>
             </div>
+       	</div>
+
+
             <!--end navagation bar-->
 
 	</header>
 	<!-- end of header-->
+	<header id="header2">
+		<div>
+			<div class="title-container">
+				<a href="">Amisha</a>
+			</div>
+			<div class="nav-container">
+            	<input type="checkbox" id="navi" hidden value="hello">
+              	  <nav class="nav2">
+                		<a href="index.html">Home</a>
+                		<a href="portfolio.html">Portfolio</a>
+                		<a href="contact.html">Contact</a>
+                		<a href="workexperience.html">Work Experience</a>
+                		<a href="sitereport.html">Site Report</a>
+			   	 </nav>
+			   	 <label for="navi">
+			   	 	<i class="material-symbols-outlined">menu</i>
+			   	 </label>
+           	 </div>
+       	</div>
+       	<div>
+       		
+       	</div>
 
-<!-- star section-->
+	</header>
+
+<!-- star section for image-->
 <section class="sec-1">
 
-	<div class="ii">
+	<div class="ii"><!--this class is for image-->
 		<img src="./image/ba.jpg" alt="nautre">
 	</div>
 
 </section>
+<!-- end section of image-->
+
+<!--section-2 start-->
 	<section class="sec-2">
-
-	<div class="div-1">
-
-		<div class="inner-div">
+<!-- this is for my own image-->
+	<div class="div-1"> 
+		<div class="inner-div-1">
 		<img src="./image/a-7.jpg" alt="amisha">
 		</div>
 	</div>
-
-	<div class="div-2">
+	<!--this is about me section-->
+	<div class=" inner-div-2">
          <h2>About me</h2>
-		 <p>Hello!My name is Amisha. I'm 18 years old.I'm student from Northampton,UK based in NAMI,Nepal. I have just completed my high school from NAMI and currently, studying in bachelor's 1st year.I'm very passionate and dedicated to my work.I enjoy every step of the design process.I have some hobbies like dancing, singing, doing programming, and so on.I rarely play games.I love to visit different places.</p>
-		</div>
-</section>
+		 <h2>Hello!My name is Amisha.I lived in Danchhi. I'm 18 years old.I'm student from Northampton,UK based in NAMI,Nepal. I have just completed my high school from NAMI and currently, studying in bachelor's 1st year.I'm very passionate and dedicated to my work.I enjoy every step of the design process.I have some hobbies like dancing, singing, doing programming, and so on.I rarely play games.I love to visit different places.<br/>I like to sing and i spend most of the in it. I like korean music a lot and sometimes i want to be like them.Sometime i do some workout to be healthy.I like a BTS a lot because their music is so perfect.They give message through their songs.Their song is so meaningful that sometime touch my heart.<br/>
+		 I like dance when i am in grade 8. I used to dance at home, sometimes infront of everyone. In school program, i have participat in it. I have experience also.But right now also i'm little bit nervous while dancing on stage.But i like it.While i'm with my sister they used to make me laugh a lot. They also teach many things. I love them a lot.Lastly, i want to tell you all that enjoy your every moment of your life because this is our one time life it will not come again and again.</h2>
 
+	</div>
+	
+</section>
+<!--section-2 end-->
+<!--section-3 start-->
 <section class="sec-3">
 	<div class="div-1">
 		<h2>My Portfolio</h2>
@@ -81,7 +121,7 @@
 <!-- End div-->
 
 </section>
-<!-- section end-->
+<!-- section-3 end-->
 
 <!-- start of footer-->
 <footer>
@@ -92,14 +132,14 @@
 			
 		</div>
 
-		<div class="div-2">
+		<div class="div-2"><!--this is for contact information-->
 			<h2>Contect Info</h2>
 			<p class="text">Jorpati,Kathmandu,Nepal</p>
 			<p class="text">+977-9843302260</p>
 			<p class="text">amishat032@gmail.com</p>
 		</div>
 
-		<div class="div-3">
+		<div class="div-3"><!-- this is for social media-->
 			<div class="div-3-inner">
 				<h2>Follow us</h2>
                     <a href="#" class="fa fa-facebook"></a>
@@ -116,3 +156,4 @@
 </body>
 <!-- end body-->
 </html>
+<!--end root of this page-->

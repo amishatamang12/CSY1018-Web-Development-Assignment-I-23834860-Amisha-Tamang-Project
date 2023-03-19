@@ -1,51 +1,86 @@
+<!--protifolio page-->
 <!DOCTYPE html>
 
-<html>
-
-<!--start head of this page-->
+<!-- root of this page-->
+<html lang="en">
+<!--start of head-->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-	<!--Creating CSS link-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- creating link for css-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">	
-	<link rel="stylesheet" type="text/css" href="./css/index.css">		
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />	
+    <title>Document</title>
 </head>
-<!-- end head-->
+<!--end of he head-->
 
-<!-- start body-->
+<!-- start of body-->
 <body>
-
-	<!--start navagation bar-->
-	<header>
+	<!-- start of header-->
+	<header id="header1">
+		<!-- div-container-->
 		<div class="title-container">
-			<a href="#">Amisha</a>
+			<a href="">Amisha</a>
 		</div>
+		<!-- start the navagation bar-->
 		<div class="nav-container">
-            <div class="nav-container-inner-div"></div>
-                <nav>
+            <div class="nav-container-inner-div">
+                <nav class="nav1">
                     <ul>
-                    	<!--start list-->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="workexperience.html">Work Experience</a></li>
-                        <li><a href="sitereport.html">Site Report</a></li>
+                        <li><a class="navigation-a" href="index.html">Home</a></li>
+                        <li><a class="navigation-a" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="navigation-a" href="contact.html">Contact</a></li>
+                        <li><a class="navigation-a" href="workexperience.html">Work Experience</a></li>
+                        <li><a class="navigation-a" href="sitereport.html">Site Report</a></li>
                     </ul>
 			    </nav>
             </div>
+       	</div>
+
+
+            <!--end navagation bar-->
+
 	</header>
-	<!-- end navagation bar-->
+	<!-- end of header-->
+	<header id="header2">
+		<div>
+			<div class="title-container">
+				<a href="">Amisha</a>
+			</div>
+			<div class="nav-container">
+            	<input type="checkbox" id="navi" hidden value="hello">
+              	  <nav class="nav2">
+                		<a href="index.html">Home</a>
+                		<a href="portfolio.html">Portfolio</a>
+                		<a href="contact.html">Contact</a>
+                		<a href="workexperience.html">Work Experience</a>
+                		<a href="sitereport.html">Site Report</a>
+			   	 </nav>
+			   	 <label for="navi">
+			   	 	<i class="material-symbols-outlined">menu</i>
+			   	 </label>
+           	 </div>
+       	</div>
+       	<div>
+       		
+       	</div>
+
+	</header>
+	<!-- end of header-->
 
 	<!-- start section-->
 	<section class="section">
-		<div class="div-1">
+		<div class="div-1"><!-- div class for image-->
 			<img src="./image/1st.jpg" alt="mountain">
 		</div>
-	<section>
+	</section>
+	<!--end section-->
 
-	<section class="sec-1">
+<!-- sec-1 start -->
+	<section class="sec-1"><!-- this section for about myself-->
 		<div class="div-1">
 			<img src="./image/jj.jpg" alt="nature">
 		</div>
@@ -59,7 +94,9 @@
 
          </div>
 	</section>
+	<!--sec-1 end-->
 
+	<!--section-3 start-->
  	<section class="section-3">
  		<!-- this is for image for section-3 home page-->
 		 	<div class="image">
@@ -71,8 +108,8 @@
 		 		<img src="./image/img-5.jpg" alt="party">
 		 		
 		 	</div>
-		</section>
-		<!--end sectionj-->
+	</section>
+		<!--end section-3-->
 
 <!-- footer start-->
 	<footer>
@@ -83,7 +120,7 @@
 			
 		</div>
 
-		<div class="div-2">
+		<div class="div-2"><!-- this is for contact information-->
 			<h2>Contect Info</h2>
 			<p class="text">Jorpati,Kathmandu,Nepal</p>
 			<p class="text">+977-9843302260</p>
@@ -91,7 +128,7 @@
 		</div>
 
 		<div class="div-3">
-			<div class="div-3-inner">
+			<div class="div-3-inner"><!-- thsi is for sovial media-->
 				<h2>Follow us</h2>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
@@ -106,3 +143,4 @@
 <!-- end body of this page-->
 
 </html>
+<!-- end root of this page-->
