@@ -3,3 +3,17 @@ section {
 	padding :20px;
 
 }
+
+.div-1 h2{
+ 	text-align: center;
+}
+.div-1 , .div-2 p{
+	font-size:30px;
+}
+.div-2 h2{
+	font-size:30px;
+	text-align: center;
+}
+.div-2 p{
+	text-align: center;
+}
