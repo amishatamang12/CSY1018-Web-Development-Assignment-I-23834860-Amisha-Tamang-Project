@@ -12,25 +12,49 @@
 }
 .sec-2 {
 	padding: 50px;
+	display:grid;
+	grid-template-columns: auto auto;
 }
+.sec-2 .div-1 .inner-div h2{
+	font-size: 50px;
+
+}
+
 @media only screen and (max-width:900px) {
 .sec-1 .ii img{
 	width:390px;
 	height:auto;
 }
+
+.sec-2 .div-1 .inner-div h2{
+	font-size: 10px;
+}
+.sec-2{
+	grid-template-columns: auto;
+}
 .sec-2 .div-1 img{
 	width:300px;
 	height:auto;
 }
-.sec-2 .div-2 p{
+
+.sec-2 .div-1{
 	grid-template-columns: auto;
-	padding:0;
+}
+
+
+.sec-3 .inner-div-2 img{
+	width:250px;
+	height:auto;
+	margin:10px;
+
+}
+.sec-3 .div-2{
+	grid-template-columns: auto;
 }
 .sec-3 .div-2 img{
-	grid-template-columns: auto;
 	width:200px;
 	height:auto;
-	margin:20px;
-	
+	margin:30px;
 }
+
 }

@@ -53,9 +53,11 @@
 	font-size: 22px;
 }
 
+
+
 @media only screen and (max-width:900px) {
 .div-div{
-	width:100px;
+	width:400px;
 	}
 
 
@@ -64,6 +66,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	
 	}
 	.section-1 .div-div .div-1{
 		padding:20px;
@@ -76,19 +79,3 @@
 	.section-1 .div-2 {
 		margin-left: 150px;
 	}
-
-.footer{
-
- grid-template-columns: auto;
- 
-}
-.footer .div-3-inner {
-  float: right;
-  font-size: 20px;
-}
-.footer .div-2 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-}

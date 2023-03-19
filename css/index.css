@@ -1,5 +1,38 @@
 
 
+/*CSS for home page*/
+
+
+.section-2 .div-1 .inner-div p{
+  border-radius: 60px 0 60px 0;
+  padding: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: #dbd8e3;
+}
+
+footer .div-3-inner a {
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+footer .div-3-inner h2 {
+  text-align: right;
+}
+
+footer .div-1 p {
+  width: 200px;
+}
+
+.section-3 {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding:10px;
+  background-color:pink;
+}
+
+
 /* For sec-1*/
 .sec-1 {
   padding: 50px;
@@ -71,7 +104,7 @@
     padding: 70px;
 }
 .section-3 .image img{
-	width:300px;
+	width:500px;
 	height:auto;
 	margin: 50px;
 }
